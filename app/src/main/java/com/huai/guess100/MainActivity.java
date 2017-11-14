@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
                     .setMessage(min+"to"+max)
                     .setPositiveButton("OK", null)
                     .show();
+        }else if(sec == num){
+            new AlertDialog.Builder(this)
+                    .setMessage("答對了")
+                    .setPositiveButton("OK", null)
+                    .show();
         }
 
 
